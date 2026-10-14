@@ -15,7 +15,7 @@ python3 scripts/package_skills.py
 python3 scripts/package_skills.py --check
 ```
 
-Commit the source and refreshed downloads together. The packager includes `.md` files and `agents/openai.yaml` from each skill, plus the repository license. If a future skill needs executable helpers or other assets, extend the explicit packaging rules and review those files before publishing.
+Commit the source and refreshed downloads together. The packager includes `.md` files, `agents/openai.yaml`, license files, and the deck builder's `references/starter-deck.html`. It uses the skill's license when supplied, otherwise the repository license. Preserve imported copyright notices and record source revisions. If a future skill needs executable helpers or other assets, extend the explicit packaging rules and review those files before publishing.
 
 ## Review quality
 

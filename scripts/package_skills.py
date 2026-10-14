@@ -28,7 +28,10 @@ def skill_files(skill):
             continue
         if not path.is_file():
             continue
-        if path.suffix != ".md" and relative.as_posix() != "agents/openai.yaml":
+        extra_files = {"agents/openai.yaml", "LICENSE", "references/LICENSE"}
+        if name == "enterprise-tech-nextgen-presentation":
+            extra_files.add("references/starter-deck.html")
+        if path.suffix != ".md" and relative.as_posix() not in extra_files:
             raise ValueError(f"Unsupported file; review packaging rules: {name}/{relative}")
         files[f"{name}/{relative.as_posix()}"] = path.read_bytes()
     entry = files.get(f"{name}/SKILL.md", b"").decode("utf-8")
@@ -40,7 +43,8 @@ def skill_files(skill):
     fields = parts[1].splitlines()
     if f"name: {name}" not in fields or not any(line.startswith("description:") and line[12:].strip() for line in fields):
         raise ValueError(f"Expected matching name and nonempty description: {name}")
-    files[f"{name}/LICENSE"] = (ROOT / "LICENSE").read_bytes()
+    license_path = next(path for path in (skill / "LICENSE", skill / "references/LICENSE", ROOT / "LICENSE") if path.is_file())
+    files[f"{name}/LICENSE"] = license_path.read_bytes()
     return files
 
 
