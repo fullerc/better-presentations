@@ -1,4 +1,4 @@
-# Demo script self-review
+# Steve Jobs Demo Script Review: self-review checklist
 
 These questions adapt the eight diagnostic lenses derived from the supplied transcript *The Storytelling Genius Of Steve Jobs*. They are practical review prompts, not an official Jobs rubric or a validated scorecard. Consider each question, then choose only the lenses that improve your script. A demo does not need every technique.
 

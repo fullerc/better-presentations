@@ -1,9 +1,9 @@
 ---
-name: demo-script-review
+name: steve-jobs-demo-script-review
 description: Review an existing demo script, talk track, storyboard, or presenter notes using the eight storytelling lessons from The Storytelling Genius Of Steve Jobs. Suggest prioritized cuts, scene changes, and before-and-after rewrites tied to audience value and observable proof. Use for demo storytelling critique, including requests to make a demo more compelling or apply Steve Jobs storytelling principles.
 ---
 
-# Demo Script Review
+# Steve Jobs Demo Script Review
 
 Help the presenter make a demo easier to understand, believe, remember, and care about. Apply the referenced storytelling mechanisms while preserving the presenter's voice, product truth, audience, and requested scope.
 

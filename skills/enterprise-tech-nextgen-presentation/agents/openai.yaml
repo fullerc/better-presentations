@@ -1,4 +1,0 @@
-interface:
-  display_name: "Enterprise Tech Next-Gen Presentation"
-  short_description: "Build branded HTML decks with diagrams and notes"
-  default_prompt: "Use $enterprise-tech-nextgen-presentation to build an HTML presentation with a clear story, diagrams, and presenter notes for my audience."

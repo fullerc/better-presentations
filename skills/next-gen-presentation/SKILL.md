@@ -1,9 +1,9 @@
 ---
-name: enterprise-tech-nextgen-presentation
+name: next-gen-presentation
 description: Generate a "next-gen" single-file HTML scroll-deck for enterprise presales — dark glass UI, scroll-snap sections, Mermaid architecture diagrams, CSS sparkles/grid/scanline, optional particle canvas, and a hidden presenter-notes pop-out window (Shift+P). Use when the user asks to build a customer presentation, pitch deck, presales/boardroom deck, Agentforce/solution story, or account-specific HTML presentation, or references this framework or "starter-deck". Produces one self-contained .html file (no build, no npm) from a template.
 ---
 
-# Enterprise Tech Next-Gen Presentation
+# Next-Gen Presentation
 
 A no-build pattern for premium presales decks: one HTML file, scroll-snap sections, dark navy + electric-blue glass aesthetic, Mermaid system maps, and a hidden presenter-notes pop-out window (Shift+P) so the speaker can read a talk track the audience never sees.
 

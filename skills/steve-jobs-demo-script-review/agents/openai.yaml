@@ -1,0 +1,4 @@
+interface:
+  display_name: "Steve Jobs Demo Script Review"
+  short_description: "Sharpen demo scripts with eight storytelling lenses"
+  default_prompt: "Use $steve-jobs-demo-script-review to review this demo script against the eight lessons from The Storytelling Genius Of Steve Jobs and suggest prioritized edits with before-and-after wording and observable proof."

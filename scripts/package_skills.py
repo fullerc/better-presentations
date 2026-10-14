@@ -29,7 +29,7 @@ def skill_files(skill):
         if not path.is_file():
             continue
         extra_files = {"agents/openai.yaml", "LICENSE", "references/LICENSE"}
-        if name == "enterprise-tech-nextgen-presentation":
+        if name == "next-gen-presentation":
             extra_files.add("references/starter-deck.html")
         if path.suffix != ".md" and relative.as_posix() not in extra_files:
             raise ValueError(f"Unsupported file; review packaging rules: {name}/{relative}")

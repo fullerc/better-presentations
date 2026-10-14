@@ -1,4 +1,4 @@
-# enterprise-tech-nextgen-presentation
+# Next-Gen Presentation
 
 A **public, no-build** pattern for “next-gen” enterprise presales in the **Keynote / WWDC house style** — dark slides, one large statement per slide, detail carried by the presenter notes: one HTML file, scroll-snap sections, dark glass UI, **Mermaid** architecture diagrams, CSS sparkles + grid + scanline, optional canvas particles, and **AI prompt snippets** for Cursor or Claude so you can generate customer-specific decks from a template.
 
